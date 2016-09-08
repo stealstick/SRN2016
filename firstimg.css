@@ -1,0 +1,30 @@
+#firstscreen{
+	
+	margin:0;
+	width:100%;
+}
+#introduce{
+	
+	width:100%;
+	
+	
+}
+section{
+	height: 100%;
+	
+}
+#second{
+	background-color : "#fbfbfb";
+}
+
+#content{
+	
+	
+	padding-top:30px;
+	padding-bottom:30px;
+}
+#introducepost{
+	
+	background-color:red;
+	padding:20px;
+}
