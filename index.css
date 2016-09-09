@@ -1,0 +1,42 @@
+body {
+}
+.navbar .navbar-nav {
+	display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.page {
+	padding: 7% 10% 7% 10%;
+}
+.main {
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	background-image: url('main.png');
+	background-size: 100% 100%;
+	margin-top: 50px;
+}
+h4, h5, h6 {
+	text-align: center;
+	color: #FFFFFF;
+}
+.text {
+	background-color: #FFFFFF;
+	padding: 7% 10% 7% 10%;
+}
+
+#page2 {
+	background-color: #FAEBD7;
+}
+
+#page3 {
+	background-color: #F8F8FF;
+}
+#page4 {
+	background-color: #FAEBD7;
+}
