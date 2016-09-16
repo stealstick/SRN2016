@@ -27,7 +27,10 @@ ins {
 	text-decoration: none;	
 	font-weight: 600;
 }
-
+.navbar-default {
+    background-color: #fff0cc;
+    border-color: #A56E00;
+}
 .navbar .navbar-nav {
 	display: inline-block;
     float: none;
@@ -62,7 +65,7 @@ ins {
 	width: 100%;
 	height: auto;
 	text-align: center;
-	background-color: orange;
+	background-color: #FFBD66;
 	font-size: 1.1em;
 	font-weight: 700;
 }
@@ -71,8 +74,8 @@ ins {
 	min-width: 767px;
 	padding: 6% 10%;
 	background-repeat: no-repeat;
-	background-image: url('1.jpg');
-	background-size: 100% 100%;
+	background-image: url('srn2016.png');
+	background-size: 100%;
 	background-attachment: fixed;
 	margin-top: 50px;
 	margin: 0 auto;
@@ -82,7 +85,7 @@ ins {
 	background-color: #FAEBD7;
 }
 #page3 {
-	background-color: #F8F8FF;
+	background-color: #F2F2F2;
 }
 #page4 {
 	background-color: #FAEBD7;
@@ -98,6 +101,10 @@ ins {
 	}
 }
 
+.img-icon{
+	margin-top: -50px;
+	margin-left:5%;
+}
 /*photo*/
 
 .tiles {
@@ -247,6 +254,7 @@ body.is-touch .tiles article .content {
 	max-height: 15em;
 	opacity: 1;
 }
+
 
 
 @media screen and (max-width: 980px) {
