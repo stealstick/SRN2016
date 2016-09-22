@@ -8,3 +8,4 @@ window.onload = function() {
 	heightResize();
 	window.addEventListener('resize', heightResize);
 }
+

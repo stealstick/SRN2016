@@ -62,7 +62,7 @@ strong {
 #main {
   padding: 6% 10%;
   background-repeat: no-repeat;
-  background-image: url('srn2016.png');
+  background-image: url('../image/bg.png');
   background-size: 100%;
   background-attachment: fixed;
   margin-top: 50px;
@@ -118,7 +118,7 @@ strong {
   padding: 6% 10% 6% 10%;
 }
 
-.col-lg-4 {
+.col-lg-12 {
 	padding: 6% 10% 6% 10%;
 	background-color: #FFFFFF;
 	letter-spacing: 1px;
