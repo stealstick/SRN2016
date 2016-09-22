@@ -4,8 +4,5 @@ function heightResize() {
 	mainPage.style.height = window.innerHeight + 'px';
 	mainPage.style.width = window.innerWidth + 'px';
 }
-window.onload = function() {
-	heightResize();
-	window.addEventListener('resize', heightResize);
-}
+
 
