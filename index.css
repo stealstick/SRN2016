@@ -40,19 +40,54 @@ strong{
 .icon{
 	color : #4b7eff;
 }
-.footer{
+.footer_s{
 	padding: 2%;
 	color : #fff;
 	background-color : #3C65CC;
 	font-size : 16px;
 	font-weight: 100;
 	text-align: center;
+	width: 100vw;
+	margin : 0;
+}
+
+.main-title{
+	text-align: center;
+	margin-top: 20%;
+	color : #fff;
+}
+#sunrin-text{
+	font-size: 100px;font-family: 'Nexa', Arial, sans-serif; 	line-height: 30px;
+}
+#networking-text{
+	font-size: 54px;font-family: 'Nexa', Arial, sans-serif;	line-height: 50px;
+}
+#day2016-text{
+	font-size:84px;font-family: 'Nexa', Arial, sans-serif;	line-height: 60px;
+}
+#logo{
+	margin-top:10%;
+	margin-left: 40%;
+	width: 20%;
 }
 
 @media all and (max-width: 768px) {
+	strong{
+		color: #4b7eff;
+	font-size: 18px;
+	}
+	.section-title{
+		font-size: 25px;
+		color: #235ead;
+		margin:5%;
+	}
+	.section-text{
+		color : #000;
+		font-size: 15px;
+	}
 	#main {
 
-		padding: 6% 10%;
+		padding: 3% 5%;
 		background-repeat: no-repeat;
 		background-image: url('image/bg.jpg');
 		background-size: 300%;
@@ -66,6 +101,25 @@ strong{
 		padding : 3% !important;
 		background-color: white;
 		box-shadow: 2px 2px 18px -2px rgba(0,0,0,0.21);
+	}
+	.main-title{
+		text-align: center;
+		margin-top: 20%;
+		color : #fff;
+	}
+	#sunrin-text{
+		font-size: 50px;font-family: 'Nexa', Arial, sans-serif; 	line-height: 30px;
+	}
+	#networking-text{
+		font-size: 28px;font-family: 'Nexa', Arial, sans-serif;	line-height: 30px;
+	}
+	#day2016-text{
+		font-size:44px;font-family: 'Nexa', Arial, sans-serif;	line-height: 30px;
+	}
+	#logo{
+		margin-top:10%;
+		margin-left: 40%;
+		width: 20%;
 	}
 }
 @media all and (min-width: 768px) and (max-width: 1024px) {
@@ -97,22 +151,6 @@ strong{
 
 
 
-.main-title{
-	text-align: center;
-	margin-top: 20%;
-	color : #fff;
-}
-#sunrin-text{
-	font-size: 100px;font-family: 'Nexa', Arial, sans-serif; 	line-height: 30px;
-}
-#networking-text{
-	font-size: 54px;font-family: 'Nexa', Arial, sans-serif;	line-height: 50px;
-}
-#day2016-text{
-	font-size:84px;font-family: 'Nexa', Arial, sans-serif;	line-height: 60px;
-}
-#logo{
-	margin-top:10%;
-	margin-left: 40%;
-	width: 20%;
+.view-width-over{
+	width:100vw;
 }
