@@ -1,0 +1,105 @@
+.event-box{
+	padding-top:3%;
+}
+.event-img{
+	width: 100%;
+	height: 230px;
+}
+.time { 
+	color: #949494;
+ }
+ .place { 
+	color: #949494;
+ }
+ .icon {
+ 	color: #3187e9;
+ }
+ .about-event{
+ 	border-bottom-style: solid;
+ 	border-color: #b3b3b3;
+ 	border-width: 1px;
+ }
+ .event-user{
+ 	padding-top: 8%;
+ 	font-size: 15px;
+ 	font-weight: 600;
+ }
+ .event-name{
+ 	padding-top: 8%;
+ 	font-size: 13px;
+ 	font-weight: 400;
+ }
+  .event-userinfo{
+
+ 	font-size: 13px;
+ 	font-weight: 400;
+ }
+  .join-user{
+ 	padding-top: 8%;
+ 	font-size: 15px;
+ 	font-weight: 600;
+ 	color: #3187e9;
+ 	border-bottom-style: solid;
+ 	border-color: #b3b3b3;
+ 	border-width: 1px;
+ }
+ .user-img{
+ 	width: 50px;
+ 	height: 50px;
+ 	border-radius: 50px;
+ 	background-color: #b3b3b3;
+ 	margin: 10px;
+ 	font-size: 20px;
+ 	padding-top:10px;
+ 	color: #fff;
+ }
+  .user-img-1{
+ 	width: 50px;
+ 	height: 50px;
+ 	border-radius: 50px;
+ 	background-color: #3889FF;
+ 	margin: 10px;
+ 	font-size: 20px;
+ 	padding-top:10px;
+ 	color: #fff;
+ }
+  .user-img-2{
+ 	width: 50px;
+ 	height: 50px;
+ 	border-radius: 50px;
+ 	background-color: #FF6552;
+ 	margin: 10px;
+ 	font-size: 20px;
+ 	padding-top:10px;
+ 	color: #fff;
+ }
+  .user-img-3{
+ 	width: 50px;
+ 	height: 50px;
+ 	border-radius: 50px;
+ 	background-color: #1656B2;
+ 	margin: 10px;
+ 	font-size: 20px;
+ 	padding-top:10px;
+ 	color: #fff;
+ }
+  .user-img-4{
+ 	width: 50px;
+ 	height: 50px;
+ 	border-radius: 50px;
+ 	background-color: #A4CC19;
+ 	margin: 10px;
+ 	font-size: 20px;
+ 	padding-top:10px;
+ 	color: #fff;
+ }
+  .user-img-5{
+ 	width: 50px;
+ 	height: 50px;
+ 	border-radius: 50px;
+ 	background-color: #FF7039;
+ 	margin: 10px;
+ 	font-size: 20px;
+ 	padding-top:10px;
+ 	color: #fff;
+ }

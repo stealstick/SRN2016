@@ -1,0 +1,171 @@
+@font-face{ 
+   font-family: 'Nexa';
+   src: url('../font/nexa.woff') format('woff');
+}
+@font-face{ 
+   font-family: 'NanumSquareR';
+   src: url('../font/NanumSquareR.woff') format('woff');
+}
+@font-face{ 
+   font-family: 'NanumSquareB';
+   src: url('../font/NanumSquareB.woff') format('woff');
+}
+
+body{
+ 	
+	margin:0;
+	padding: 0;
+	font-family: 'NanumSquareR';
+}
+.nopadding{
+
+	padding: 0;
+}
+.nomargin{
+
+	margin: 0;
+}
+
+	
+
+.logo{
+   font-family: 'Nexa', Arial, sans-serif;
+   font-size: 25px;
+   margin-top : 10px;
+   color : #3187e9;
+   text-align: center;
+}
+
+.navbar{
+   width: 100%;
+   border-bottom: 1px solid #3187e9;
+
+}
+div.container >  .meetingheader {
+	position: relative;
+	height: 50px;
+	font-size:15px;
+}
+div.container >  .meetingheader > .meetingsort {
+	position: absolute;
+	width:120px;
+	right: 0px;
+	bottom: 0px;
+	margin-right: 3px;
+	
+
+}
+
+
+#selectsort{
+	font-weight: 600;
+	float:right;
+    background: #fff;
+    font-size: 10px;
+    color: #666666;
+    border-radius: 0;
+    width: 100px;
+}
+div.container > .meetingheader > .meetingcount{
+	position: absolute;
+	left:0px;
+	bottom:0px;
+	width:120px;
+	float: left;
+	font-size: 13px;
+}
+div.container >  .meetingheader > .meetingcount > span > b {
+
+	color:#6666CC;
+}
+div.container > .row > .meetingbox {
+
+	width:98%;
+	margin: 1%;
+	border: 1px solid #b8b8b8;
+
+
+}
+div.container > .row > .meetingbox:hover {
+
+	width:98%;
+	margin: 1%;
+	border: 1px solid #4195f5;
+
+}
+/*div.container > .row > .meetingbox > .meetingboximgarea {
+
+}*/
+div.container > .row > .meetingbox > div >.meetingboximg{
+	width:100%;
+	height:113px;
+	
+	display: inline-block;
+}
+div.container > .row > .meetingbox > .meetingboxtextarea {
+	width:66.6666666%;
+	height: 113px;
+	padding: 0px;
+	margin: 0 auto;
+}
+div.container > .row > .meetingbox > .meetingboxtextarea> .meetingboxinfo{
+	width: 100%;
+	height: 75px;
+	margin: 3px;
+
+}
+div.container > .row > .meetingbox > .meetingboxtextarea> .meetingboxinfo2{
+	width: 100%;
+	height: 30px;
+	background-color: #fafafa;
+	border-top: 1px solid #efefef;
+	margin-bottom: 1px;
+}
+
+/*div.container > .row > .meetingbox > .meetingboxtextarea >  p > .meetingboxtextareatitle > h6 {
+
+	margin: 0px;
+	margin-bottom: 10px; 
+}*/
+
+/*div.container > .row > .meetingbox > .meetingboxtextarea > p > .meetingboxtextareadate,.meetingboxtextareaplace {
+
+	font-size: 10px;
+	margin: 0px;
+}*/
+div.container > .row > .meetingbox > .meetingboxtextarea > .meetingboxinfo> .row > .meetingboxtextareatitle > p {
+
+	
+	font-size: 11px;
+}
+div.container > .row > .meetingbox > .meetingboxtextarea > .meetingboxinfo> .row > .meetingboxtextareadate,.meetingboxtextareaplace > p {
+
+	
+	font-size: 9px;
+}
+div.container > .row > .meetingbox > .meetingboxtextarea > .row > .meetingboxtextareafooter{
+	height: 30px;
+	border: 1px solid #333333;
+	width: 100%;
+	
+	padding: 0;
+	float: ;
+
+}
+.glyphicon-heart-empty{
+
+	font-size: 20px;
+	margin-top:5%;
+}
+
+.endlinedday{
+	
+	
+	font-size: 11px;
+	display: block;
+	text-align: center; /* 문자들의 가운데 정렬을 해제 */
+	width: 100%;
+	margin-top:5%;
+	
+}
+
